@@ -28,7 +28,7 @@ if app_mode=='Home':
    
 elif app_mode =='Prediction':
     
-    csv=pd.read_csv("test.csv")
+    csv=pd.read_csv("data\test.csv")
     st.write(csv)
 
     #st.image('slider-short-3.jpg')
